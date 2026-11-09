@@ -1,0 +1,108 @@
+{
+  "planHash": "3dd58d7dec32ab410e2c4fcff3e136c25dfafb3251a888ef12fd1ee99f12f2b6",
+  "phase": "standalone",
+  "recordedAtUtc": "2026-11-07T16:39:23.7857993Z",
+  "retryCount": 1,
+  "resetBaseline": false,
+  "complete": true,
+  "result": {
+    "setupSucceeded": true,
+    "setupDurationMs": 8264,
+    "setupFailureOutput": null,
+    "assertions": [
+      {
+        "name": "production-build",
+        "kind": "process",
+        "verificationMethod": "exit-code",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 0,
+        "outputSample": "\r\n\u003E potla-services-react-replica@1.0.0 build\r\n\u003E vite build\r\n\r\n\u001B[36mvite v7.3.7 \u001B[32mbuilding client environment for production...\u001B[36m\u001B[39m\r\ntransforming...\r\n\u001B[32m\u2713\u001B[39m 112 modules transformed.\r\nrendering chunks...\r\ncomputing gzip size...\r\n\u001B[2mdist/\u001B[22m\u001B[32mindex.html                                                 \u001B[39m\u001B[1m\u001B[2m  1.26 kB\u001B[22m\u001B[1m\u001B[22m\u001B[2m \u2502 gzip:   0.51 kB\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-vietnamese-200-normal-Ci1XCmn0.woff2    \u001B[39m\u001B[1m\u001B[2m  5.13 kB\u001B[22m\u001B[1m\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-vietnamese-400-normal-V2dSmW1H.woff2    \u001B[39m\u001B[1m\u001B[2m  5.28 kB\u001B[22m\u001B[1m\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-vietnamese-700-normal-CZwaiz_e.woff2    \u001B[39m\u001B[1m\u001B[2m  5.29 kB\u001B[22m\u001B[1m\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-vietnamese-300-normal-D1u9-s3C.woff2    \u001B[39m\u001B[1m\u001B[2m  5.30 kB\u001B[22m\u001B[1m\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-vietnamese-600-normal-DD7cNabE.woff2    \u001B[39m\u001B[1m\u001B[2m  5.35 kB\u001B[22m\u001B[1m\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-vietnamese-800-normal-CfdX2BhI.woff2    \u001B[39m\u001B[1m\u001B[2m  5.38 kB\u001B[22m\u001B[1m\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-vietnamese-900-normal-B0kLc0RO.woff2    \u001B[39m\u001B[1m\u001B[2m  5.40 kB\u001B[22m\u001B[1m\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-vietnamese-400-italic-DcqKS7Ss.woff2    \u001B[39m\u001B[1m\u001B[2m  5.70 kB\u001B[22m\u001B[1m\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-cyrillic-200-normal-CwstIKSk.woff2      \u001B[39m\u001B[1m\u001B[2m  7.00 kB\u001B[22m\u001B[1m\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-cyrillic-700-normal-BJ2iHHyS.woff2      \u001B[39m\u001B[1m\u001B[2m  7.12 kB\u001B[22m\u001B[1m\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-cyrillic-300-normal-DjnBk3t1.woff2      \u001B[39m\u001B[1m\u001B[2m  7.14 kB\u001B[22m\u001B[1m\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-cyrillic-400-normal-DUb-KqT8.woff2      \u001B[39m\u001B[1m\u001B[2m  7.19 kB\u001B[22m\u001B[1m\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-cyrillic-600-normal-D4TuIAT6.woff2      \u001B[39m\u001B[1m\u001B[2m  7.19 kB\u001B[22m\u001B[1m\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-vietnamese-200-normal-o-IX9Q-Y.woff     \u001B[39m\u001B[1m\u001B[2m  7.20 kB\u001B[22m\u001B[1m\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-cyrillic-800-normal-COys2OwR.woff2      \u001B[39m\u001B[1m\u001B[2m  7.24 kB\u001B[22m\u001B[1m\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-cyrillic-900-normal-Ctzrhb8A.woff2      \u001B[39m\u001B[1m\u001B[2m  7.29 kB\u001B[22m\u001B[1m\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-vietnamese-300-normal-C0jXobRv.woff     \u001B[39m\u001B[1m\u001B[2m  7.29 kB\u001B[22m\u001B[1m\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-vietnamese-700-normal-BwTSkH1V.woff     \u001B[39m\u001B[1m\u001B[2m  7.35 kB\u001B[22m\u001B[1m\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-vietnamese-400-normal-D5dwM7ZL.woff     \u001B[39m\u001B[1m\u001B[2m  7.37 kB\u001B[22m\u001B[1m\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-vietnamese-900-normal-XU5BCYCl.woff     \u001B[39m\u001B[1m\u001B[2m  7.37 kB\u001B[22m\u001B[1m\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-vietnamese-600-normal-BW3IEr32.woff     \u001B[39m\u001B[1m\u001B[2m  7.41 kB\u001B[22m\u001B[1m\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-vietnamese-800-normal-hO2TqS3m.woff     \u001B[39m\u001B[1m\u001B[2m  7.41 kB\u001B[22m\u001B[1m\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-cyrillic-400-italic-D1Dyz3yy.woff2      \u001B[39m\u001B[1m\u001B[2m  7.50 kB\u001B[22m\u001B[1m\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-vietnamese-400-italic-BijGalwh.woff     \u001B[39m\u001B[1m\u001B[2m  7.81 kB\u001B[22m\u001B[1m\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-cyrillic-ext-200-normal-Bqkw_wHZ.woff2  \u001B[39m\u001B[1m\u001B[2m  8.58 kB\u001B[22m\u001B[1m\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-cyrillic-200-normal-CLl3e0sQ.woff       \u001B[39m\u001B[1m\u001B[2m  8.84 kB\u001B[22m\u001B[1m\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-cyrillic-ext-700-normal-GO46tfsI.woff2  \u001B[39m\u001B[1m\u001B[2m  8.90 kB\u001B[22m\u001B[1m\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-cyrillic-ext-400-normal-El6lRT8b.woff2  \u001B[39m\u001B[1m\u001B[2m  8.90 kB\u001B[22m\u001B[1m\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-cyrillic-ext-300-normal-Dez-nZCm.woff2  \u001B[39m\u001B[1m\u001B[2m  8.90 kB\u001B[22m\u001B[1m\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-cyrillic-ext-600-normal-CVjnjZn6.woff2  \u001B[39m\u001B[1m\u001B[2m  8.96 kB\u001B[22m\u001B[1m\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-cyrillic-700-normal-DG2UZxR9.woff       \u001B[39m\u001B[1m\u001B[2m  8.99 kB\u001B[22m\u001B[1m\u001B[22m\r\n\u001B[2mdist/\u001B[22m\u001B[32massets/nunito-sans-cyrillic-300-normal-K_AUXxcp.woff       \u001B[39m\u001B[1m\u001B[2m  9.00 kB\u001B[22m\u001B[1m\u001B[22m\r\n\n\u2026[truncated]",
+        "durationMs": 5173
+      },
+      {
+        "name": "tests-pass",
+        "kind": "process",
+        "verificationMethod": "test-results",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 0,
+        "outputSample": "\r\n\u003E potla-services-react-replica@1.0.0 test\r\n\u003E vitest run\r\n\r\n\r\n RUN  v5.1.0 C:/Users/madhu/Downloads/potla-react-replica/potla-replica\r\n\r\n\r\n Test Files  1 passed (1)\r\n      Tests  2 passed (2)\r\n   Start at  22:09:21\r\n   Duration  1.16s (import 69%, transform 23%, worker 6%, tests 3%)\r\n\r\n",
+        "durationMs": 3520,
+        "testResults": {
+          "testFramework": "vitest",
+          "runnerDetectedFrom": "package_json",
+          "testsTotal": 2,
+          "testsPassed": 2,
+          "testsFailed": 0,
+          "testsSkipped": 0,
+          "parseFailed": false
+        }
+      },
+      {
+        "name": "blog-route-serves",
+        "kind": "http-probe",
+        "verificationMethod": "http-status",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": null,
+        "outputSample": "HTTP 200\n\u003C!doctype html\u003E\n\u003Chtml lang=\u0022en\u0022\u003E\n  \u003Chead\u003E\n    \u003Cscript type=\u0022module\u0022\u003Eimport { injectIntoGlobalHook } from \u0022/@react-refresh\u0022;\ninjectIntoGlobalHook(window);\nwindow.$RefreshReg$ = () =\u003E {};\nwindow.$RefreshSig$ = () =\u003E (type) =\u003E type;\u003C/script\u003E\n\n    \u003Cscript type=\u0022module\u0022 src=\u0022/@vite/client\u0022\u003E\u003C/script\u003E\n\n    \u003Cmeta charset=\u0022utf-8\u0022 /\u003E\n    \u003Cmeta name=\u0022viewport\u0022 content=\u0022width=device-width, initial-scale=1, shrink-to-fit=no\u0022 /\u003E\n    \u003Cmeta\n      name=\u0022description\u0022\n      content=\u0022Discover Potla Group of Companies: software development, consulting, digital media, technology services, and career opportunities.\u0022\n    /\u003E\n    \u003Clink rel=\u0022icon\u0022 href=\u0022/assets/img/favicon.png\u0022 type=\u0022image/png\u0022 /\u003E\n    \u003Clink rel=\u0022stylesheet\u0022 href=\u0022/assets/css/bootstrap.min.css\u0022 /\u003E\n    \u003Clink rel=\u0022stylesheet\u0022 href=\u0022/assets/css/icofont.min.css\u0022 /\u003E\n    \u003Clink rel=\u0022stylesheet\u0022 href=\u0022/assets/css/animate.css\u0022 /\u003E\n    \u003Clink rel=\u0022stylesheet\u0022 href=\u0022/assets/css/owl.carousel.css\u0022 /\u003E\n    \u003Clink rel=\u0022stylesheet\u0022 href=\u0022/assets/css/magnific-popup.css\u0022 /\u003E\n    \u003Clink rel=\u0022stylesheet\u0022 href=\u0022/assets/css/owl.theme.default.min.css\u0022 /\u003E\n    \u003Clink rel=\u0022stylesheet\u0022 href=\u0022/assets/css/style.css\u0022 /\u003E\n    \u003Clink rel=\u0022stylesheet\u0022 href=\u0022/assets/css/responsive.css\u0022 /\u003E\n    \u003Ctitle\u003EPotla Group of Companies | Technology, Talent \u0026amp; Digital Services\u003C/title\u003E\n  \u003C/head\u003E\n  \u003Cbody\u003E\n    \u003Cdiv id=\u0022root\u0022\u003E\u003C/div\u003E\n    \u003Cscript type=\u0022module\u0022 src=\u0022/src/main.jsx\u0022\u003E\u003C/script\u003E\n  \u003C/body\u003E\n\u003C/html\u003E\n\n--- server output ---\n\r\n\u003E potla-services-react-replica@1.0.0 dev\r\n\u003E vite --host 0.0.0.0\r\n\r\n\r\n  \u001B[32m\u001B[1mVITE\u001B[22m v7.3.7\u001B[39m  \u001B[2mready in \u001B[0m\u001B[1m423\u001B[22m\u001B[2m\u001B[0m ms\u001B[22m\r\n\r\n  \u001B[32m\u279C\u001B[39m  \u001B[1mLocal\u001B[22m:   \u001B[36mhttp://localhost:\u001B[1m5173\u001B[22m/\u001B[39m\r\n  \u001B[32m\u279C\u001B[39m  \u001B[1mNetwork\u001B[22m: \u001B[36mhttp://192.168.1.13:\u001B[1m5173\u001B[22m/\u001B[39m\r\n",
+        "durationMs": 1145
+      }
+    ],
+    "executions": [
+      {
+        "source": "setup[0]",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "ci"
+        ],
+        "cwd": "C:\\Users\\madhu\\Downloads\\potla-react-replica\\potla-replica",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "production-build",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "run",
+          "build"
+        ],
+        "cwd": "C:\\Users\\madhu\\Downloads\\potla-react-replica\\potla-replica",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "tests-pass",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "test"
+        ],
+        "cwd": "C:\\Users\\madhu\\Downloads\\potla-react-replica\\potla-replica",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "blog-route-serves",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "run",
+          "dev"
+        ],
+        "cwd": "C:\\Users\\madhu\\Downloads\\potla-react-replica\\potla-replica",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      }
+    ]
+  }
+}
